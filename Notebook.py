@@ -7,7 +7,7 @@ class Notebook(Computador):
         self.cor = cor
         self.duracaoBateria = duracaoBateria
 
-    def getConfiguracao(self):
+    def getInformacoes(self):
         return f"Modelo: {self.modelo}, Cor: {self.cor}, Preço: {self.preco}, Tempo de Bateria: {self.duracaoBateria}"
 
     def cadastrar(self):
